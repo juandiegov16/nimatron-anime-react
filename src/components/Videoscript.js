@@ -1,23 +1,24 @@
 import React from "react"
+import Card from './Card'
 
 
 export default class Videoscript extends React.Component {
-  crearCards = () => {
-    const {keys, data} = this.props;
-    let card = keys.map((value) => {
-      return (
-          <div>
-            titulo:{data[value]}
-          </div>
-      );
-    });
-    console.log(card);
-  }
+
 
   render() {
+    const {keys, data} = this.props;
     return (
-      <div>
-        {this.crearCards(this.props)}
+      <div className="content" style={{display:"inline-block"}}>
+        {keys.map((value,index) => {
+          return (
+            <div key = {index}>
+              <Card
+                titulo = {value}
+                detalle = {data[value]}
+              />
+            </div>
+          );
+        })}
       </div>
     );
   }
