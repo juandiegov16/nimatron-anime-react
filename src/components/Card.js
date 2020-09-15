@@ -3,7 +3,7 @@ import React from 'react'
 export default class Card extends React.Component{
     render(){
         return (
-          <div className="card rounded">
+          <div className="card rounded col col-sm-12 mx-auto my-auto">
             <iframe
               src={this.props.detalle["src"]}
               className="card-img-top"
