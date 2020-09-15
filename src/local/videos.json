@@ -1,14 +1,79 @@
 {
-    "Ergo Proxy": {
+    "001": {
+        "title": "Ergo Proxy",
         "src": "https://www.youtube-nocookie.com/embed/oAXrRWLKzko",
         "oped": "Opening",
         "artist": "Monoral",
         "songname": "Kiri"
     },
-    "Samurai Champloo":{
+    "002":{
+        "title": "Samurai Champloo",
         "src": "https://www.youtube-nocookie.com/embed/Eq6EYcpWB_c",
         "oped": "Opening",
         "artist": "Nujabes",
         "songname": "Battlecry"
+    },
+    "003":{
+        "title": "Gantz",
+        "src":"https://www.youtube-nocookie.com/embed/SJ5ICtGn6u8",
+        "oped": "Opening",
+        "artist": "RIP SLYME",
+        "songname": "Super Shooter"
+    },
+    "004":{
+        "title": "Vinland Saga",
+        "src": "https://www.youtube-nocookie.com/embed/2e1t5VM9jTk",
+        "oped": "Opening 2",
+        "artist": "MAN WITH A MISSION",
+        "songname": "Dark Crow"
+    },
+    "005":{
+        "title": "Noragami Aragoto",
+        "src": "https://www.youtube-nocookie.com/embed/aZenmeRytEM",
+        "oped": "Opening",
+        "artist": "The Oral Cigarettes",
+        "songname": "Kyouran Hey Kids!!"
+    },
+    "006":{
+        "title": "Attack On Titan Season 2",
+        "src": "https://www.youtube-nocookie.com/embed/CID-sYQNCew",
+        "oped": "Opening",
+        "artist": "Linked Horizon",
+        "songname": "Shinzou wo Sasageyo"
+    },
+    "007":{
+        "title": "Shinsekai yori",
+        "src": "https://www.youtube.com/embed/mz1ypuGJ3VM",
+        "oped": "Ending",
+        "artist": "Risa Taneda",
+        "songname": "Wareta Ringo"
+    },
+    "008":{
+        "title": "Gintama",
+        "src": "https://www.youtube.com/embed/v0cAJ1Cg8E8",
+        "oped": "Ending 17",
+        "artist": "SPYAIR",
+        "songname": "Samurai Heart (Some Like It Hot!!)"
+    },
+    "009":{
+        "title": "Gintama",
+        "src": "https://www.youtube.com/embed/vIbjgaWHo9g",
+        "oped": "Opening 9",
+        "artist": "serial TV drama",
+        "songname": "Togenkyo Alien"
+    },
+    "010":{
+        "title": "Gintama",
+        "src": "https://www.youtube-nocookie.com/embed/yt872ZGXJe0",
+        "oped": "Opening 21",
+        "artist": "SPYAIR",
+        "songname": "I Wanna Be"
+    },
+    "011":{
+        "title": "Re:CREATORS",
+        "src": "https://www.youtube-nocookie.com/embed/MEEVGqvvXbI",
+        "oped": "Opening",
+        "artist": "SawanoHiroyuki[nZk]:Tielle & Gemie",
+        "songname": "gravityWall"
     }
 }

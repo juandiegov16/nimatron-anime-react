@@ -40,9 +40,7 @@ export default class PrincipalPage extends React.Component {
             <Videoscript 
                 data = {DataVideos}
                 keys = {this.state.keys}          
-            /> 
-            
-            <div className="card-deck row-cols-4 justify-content-center"></div>
+            />             
           </div>
         </div>
       );
@@ -52,63 +50,7 @@ export default class PrincipalPage extends React.Component {
   }
   
    
-              /*<div className="card rounded">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/oAXrRWLKzko"
-                  className="card-img-top"
-                  alt="..."
-                  title="Ergo Proxy OP [HD]"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-                <div className="card-body">
-                  <p className="card-text">
-                    <h5 className="card-title">Ergo Proxy</h5>
-                    <br />
-                    Opening
-                    <br /> <i>Monoral - "Kiri"</i>
-                  </p>
-                </div>
-              </div>
-              <div className="card rounded">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/Eq6EYcpWB_c"
-                  className="card-img-top"
-                  alt="..."
-                  title="Samurai Champloo - Opening"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-                <div className="card-body">
-                  <p className="card-text">
-                    <h5 className="card-title">Samurai Champloo</h5>
-                    <br />
-                    Opening
-                    <br /> <i>Nujabes - "Battlecry"</i>
-                  </p>
-                </div>
-              </div>
-              <div className="card rounded">
-                <iframe
-                  src="https://www.youtube-nocookie.com/embed/SJ5ICtGn6u8"
-                  className="card-img-top"
-                  alt="..."
-                  title="Gantz - Opening"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-                <div className="card-body">
-                  <p className="card-text">
-                    <h5 className="card-title">Gantz</h5>
-                    <br />
-                    Opening
-                    <br /> <i>RIP SLYME - "Super Shooter"</i>
-                  </p>
-                </div>
-              </div>
+              /*
               <div className="card rounded">
                 <iframe
                   src="https://www.youtube-nocookie.com/embed/2e1t5VM9jTk"
