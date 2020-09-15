@@ -1,21 +1,33 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import rosario from "./images/rosario.jpg";
-import Usuario from "./components/Usuario";
+/* import Usuario from "./components/Usuario"; */
+import DataVideos from "./local/videos.json";
+import Videoscript from "./components/Videoscript"
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      nombre: "Rosario + Vampire",
+      keys: []
     };
   }
+
+  componentDidMount(){
+    this.cargarVideos();
+    console.log("Consola")
+  }
+
+  cargarVideos = () => {
+    let videosKeys = Object.keys(DataVideos);
+    this.setState({keys: videosKeys})
+  }
+
   render() {
     return (
       <div className="content">
         <div className="container-fluid">
           <h1>Nimatron Anime</h1>
-          <Usuario nombre={this.state.nombre} />
           <div className="row">
             <img
               className="jumbotron img-fluid"
@@ -23,7 +35,12 @@ export default class App extends React.Component {
               alt="anime wallpaper"
             />
           </div>
-          <div className="card-deck row-cols-4 justify-content-center">
+          <Videoscript 
+              data = {DataVideos}
+              keys = {this.state.keys}          
+          />
+          
+          <div className="card-deck row-cols-4 justify-content-center">{/* 
             <div className="card rounded">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/oAXrRWLKzko"
@@ -100,9 +117,14 @@ export default class App extends React.Component {
                 </p>
               </div>
             </div>
-          </div>
+          */} </div>
         </div>
+
+        
       </div>
     );
+    
   }
+  
 }
+
