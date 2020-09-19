@@ -75,5 +75,55 @@
         "oped": "Opening",
         "artist": "SawanoHiroyuki[nZk]:Tielle & Gemie",
         "songname": "gravityWall"
+    },
+    "012":{
+        "title": "Bleach",
+        "src": "https://www.youtube-nocookie.com/embed/XXjgwpayNoM",
+        "oped": "Opening 13",
+        "artist": "SID",
+        "songname": "Ranbu no Melody"
+    },
+    "013":{
+        "title": "My Hero Academia",
+        "src": "https://www.youtube-nocookie.com/embed/Q7w5IMyJ3pM",
+        "oped": "Opening 2",
+        "artist": "Kenshi Yonezu",
+        "songname": "Peace Sign"
+    },
+    "014":{
+        "title": "Naruto Shippuden",
+        "src": "https://www.youtube-nocookie.com/embed/zVgKnfN9i34",
+        "oped": "Opening 16",
+        "artist": "KANA-BOON",
+        "songname": "Silhouette"
+    },
+    "015":{
+        "title": "Parasyte -the maxim-",
+        "src": "https://www.youtube-nocookie.com/embed/akM53Bs58Bw",
+        "oped": "Opening",
+        "artist": "Fear, and loathing in Las Vegas",
+        "songname": "Let Me Hear"
+    },
+    "016":{
+        "title": "Hunter X Hunter (2011)",
+        "src": "https://www.youtube-nocookie.com/embed/faqmNf_fZlE",
+        "oped": "Opening 1",
+        "artist": "Masatoshi Ono",
+        "songname": "Departure!"
+    },
+    "017":{
+        "title": "Tower of God",
+        "src": "https://www.youtube-nocookie.com/embed/apII5VFTce0",
+        "oped": "Opening",
+        "artist": "Stray Kids",
+        "songname": "TOP"
+    },
+    "018":{
+        "title":"Hunter X Hunter (2011)",
+        "src": "https://www.youtube-nocookie.com/embed/MCYm453CE6Y",
+        "oped": "Ending 5",
+        "artist": "Yuzu",
+        "songname": "Hyori Ittai"
     }
+
 }
