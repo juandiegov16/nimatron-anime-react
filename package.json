@@ -40,7 +40,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./build/ --domain nimatron-anime.surge.sh"
+      "pre-push": "npm run build && surge --project ./build/ --domain nimatron-anime.surge.sh"
     }
   }
 }
