@@ -124,6 +124,19 @@
         "oped": "Ending 5",
         "artist": "Yuzu",
         "songname": "Hyori Ittai"
+    },
+    "019":{
+        "title": "Gintama",
+        "src": "https://www.youtube-nocookie.com/embed/GQRMESLHVc0",
+        "oped": "Opening 13",
+        "artist": "SPYAIR",
+        "songname":"Sakuramitsutsuki"
+    },
+    "020": {
+        "title":"Gintama",
+        "src": "https://www.youtube-nocookie.com/embed/WVb4b0RmU0s",
+        "oped": "Opening 18",
+        "artist": "ЯeaL",
+        "songname": "Kagerou"
     }
-
 }
